@@ -20,6 +20,7 @@
 		6A1A4F7C161DD5AF008D69BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A4F5D161DD5AF008D69BF /* Foundation.framework */; };
 		6A1A4F84161DD5AF008D69BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A4F82161DD5AF008D69BF /* InfoPlist.strings */; };
 		6A1A4F87161DD5AF008D69BF /* DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A4F86161DD5AF008D69BF /* DownloaderTests.m */; };
+		6A1A4F92161DD7B5008D69BF /* GerenciadorDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A4F91161DD7B5008D69BF /* GerenciadorDownload.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6A1A4F83161DD5AF008D69BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1A4F85161DD5AF008D69BF /* DownloaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloaderTests.h; sourceTree = "<group>"; };
 		6A1A4F86161DD5AF008D69BF /* DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloaderTests.m; sourceTree = "<group>"; };
+		6A1A4F90161DD7B5008D69BF /* GerenciadorDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerenciadorDownload.h; sourceTree = "<group>"; };
+		6A1A4F91161DD7B5008D69BF /* GerenciadorDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerenciadorDownload.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				6A1A4F6A161DD5AF008D69BF /* AppDelegate.h */,
 				6A1A4F6B161DD5AF008D69BF /* AppDelegate.m */,
 				6A1A4F6D161DD5AF008D69BF /* MainStoryboard.storyboard */,
+				6A1A4F90161DD7B5008D69BF /* GerenciadorDownload.h */,
+				6A1A4F91161DD7B5008D69BF /* GerenciadorDownload.m */,
 				6A1A4F70161DD5AF008D69BF /* ViewController.h */,
 				6A1A4F71161DD5AF008D69BF /* ViewController.m */,
 				6A1A4F62161DD5AF008D69BF /* Supporting Files */,
@@ -261,6 +266,7 @@
 				6A1A4F68161DD5AF008D69BF /* main.m in Sources */,
 				6A1A4F6C161DD5AF008D69BF /* AppDelegate.m in Sources */,
 				6A1A4F72161DD5AF008D69BF /* ViewController.m in Sources */,
+				6A1A4F92161DD7B5008D69BF /* GerenciadorDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
